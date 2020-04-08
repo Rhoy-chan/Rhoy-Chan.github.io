@@ -1,0 +1,126 @@
+@font-face{
+    src: url(../font/moontypeface-free-font/Moon\ Bold.otf);
+    font-family: "moon";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background-image: url(../img/bgIndex.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+}
+
+.fontLooks{
+    font-family: Comic Sans MS;
+    font-size: 37px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    text-shadow: 2px 2px 18px 7px rgbargb(0, 144, 240);
+}
+.landingCard{
+    position: absolute;
+    background:rgba(43, 224, 248, 0.267);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0px black;
+    margin-top: 70px;
+}
+
+.homeCard{
+    position: absolute;
+    background:rgba(43, 224, 248, 0.267);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0px black;
+}
+.logo{
+    position: relative;
+    padding: 10px;
+}
+.btnEnter{
+    border-radius: 15%;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-color: white;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: inset 2px 2px 8px rgba(255, 255, 255, 1),  
+    inset 2px 2px 12px rgb(104, 97, 97),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 8px rgba(0, 0, 0, 1);
+}
+h3, h4, p, div{
+    color: black;
+}
+.bg{
+    background-color: blue;
+}
+.bgStyle{
+    background-image: url(../img/bgIndex.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+}
+.titleName{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-shadow: -3px -3px 10px rgb(0, 144, 240);
+    font-family: moon;
+}
+
+.inputName{
+    background: none;
+    outline: none;
+    height: 25px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px rgba(1, 175, 255, 0.24);
+}
+#mathGrade, #scienceGrade, #englishGrade, #filipinoGrade, #peGrade{
+    width: 35px;
+    height: 30px;
+    outline: none;
+    background: none;
+    text-align: center;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+.evaluateBtn{
+    border-radius: 15%;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border-color: white;
+    color: white;
+    box-shadow: inset 2px 2px 8px rgba(255, 255, 255, 1),  
+    inset 2px 2px 12px rgb(104, 97, 97),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 8px rgba(0, 0, 0, 1);
+}
+.evaluateBtn:hover, .btnEnter:hover{
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 1),  
+                2px 2px 12px rgb(104, 97, 97),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.2),
+                2px 2px 8px rgba(0, 0, 0, 1);
+}
+.division{
+   border-left: 3px solid rgba(1, 175, 255, 0.24);
+   border-right: 3px solid  rgba(1, 175, 255, 0.24);
+   margin-left: 25px;
+   margin-right: 25px;
+   box-shadow: black;
+}

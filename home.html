@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body class="bgStyle">
+    
+    <section class="container-fluid pt-3 ">
+        <div class="row justify-content-center">
+            <div class="homeCard justify-content-center pt-5">
+                <div class="container">
+                    <div>
+                        <h2 class="titleName text-center pt-1">Student <br> Grade Evaluator</h2>
+                    </div>
+                    <div class="justify-content-center">
+                        <div class="logo text-center sampleLogo">
+                            <!-- This Logo is for Example only -->
+                            <img src="./img/sampleLogo.png" alt="">
+                        </div>
+                    </div>  
+                    <div class="text-center">
+                          
+                    </div>
+                    <div class="text-center pt-4">
+                        <input type="text" class="inputName text-center">
+                        <h6>Student Name</h6>
+                    </div>
+                        <h4 class="text-center ">List of Student Subject</h4>
+                    <div class="table justify-content-center">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3.5 ">
+                                <p class="text-left">Subject Title</p>
+                                <div class="math pb-3">Math</div>
+                                <div class="science pb-3">Science</div>
+                                <div class="english pb-3">English</div>
+                                <div class="filipino pb-3">Filipino</div>
+                                <div class="pE">P.E.</div>
+                            </div>
+                            
+                            <div class="division col-sm-4 justify-content-center text-center">
+                                <p class="text-center">Grade</p>
+                                <div class="pb-2"><input type="number" value="0" onkeypress="return event.charCode>=48 && event.charCode<=57" id="mathGrade"></div>
+                                <div class="pb-2"><input type="number" value="0" onkeypress="return event.charCode>=48 && event.charCode<=57" id="scienceGrade"></div>
+                                <div class="pb-2"><input type="number" value="0" onkeypress="return event.charCode>=48 && event.charCode<=57" id="englishGrade"></div>
+                                <div class="pb-2"><input type="number" value="0" onkeypress="return event.charCode>=48 && event.charCode<=57" id="filipinoGrade"></div>
+                                <div class="pb-2"><input type="number" value="0" onkeypress="return event.charCode>=48 && event.charCode<=57" id="peGrade"></div>
+                            </div>
+                            <div class="col-md-3.3">
+                                <p class="text-center">Remarks</p>
+                                <div class="text-center"><p id="mathRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="scienceRemarks">Evaluation</p> </div>
+                                <div class="text-center"><p id="englishRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="filipinoRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="peRemarks">Evaluation</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studentRank container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Student Rank: </h4>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 id="Rank" class=" justify-content-center text-center"> Student Rank Display Here</h4>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="evaluateBtn" onclick="evalResult()">Evaluate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/code.js"></script>
+</body>
+
+</html>
